@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(221, 220, 210);
+}
+
+
+
+.draggable {
+  z-index: 999;
+}
+

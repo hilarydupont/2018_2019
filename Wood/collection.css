@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'hwt_republic_gothicoutline';
+    src: url('fonts/hwtrepublicgothicoutline-webfont.woff2') format('woff2'),
+         url('fonts/hwtrepublicgothicoutline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'hwt_republic_gothicsolid';
+    src: url('fonts/hwtrepublicgothicsolid-webfont.woff2') format('woff2'),
+         url('fonts/hwtrepublicgothicsolid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body{
+  margin:0px;
+}
+
+#mainArticle { 
+  grid-area: article; 
+  margin-left: 0; /* Same as the width of the sidenav */
+    padding: 0px 10px;     
+  }
+
+#mainNav { 
+  height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'helvetica';
+  font-size: 14px;
+    
+  }
+
+/*img:hover{
+opacity: 0;
+}*/
+
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin:none;
+  padding: none;
+justify-content: flex-end;
+margin-left: 300px;
+}
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+}
+
+.substance{
+  position: fixed;
+}
+
+.project{
+  position: relative;
+  font-family:'helvetica';
+  font-size: 20px;
+  color:black;
+  padding: 0px;
+  margin: 0px;
+  height: 500px;
+  width: 500px;
+}
+
+.quote{
+padding: 20px;
+position: absolute;
+z-index: 200;
+color: green;
+}
+
+.rings{
+  margin-left: 20px;
+  margin-top: 40px;
+  
+}
+
+.leaves{
+  margin-left: 0px;
+  margin-top: 500px;
+}
+
+.ent{
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.trunk{
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.topiary{
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.espalier{
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+.paper{
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.face{
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.zones{
+  margin-right: 0;
+  margin-top: 100px;
+}
+
+.cell{
+  margin-right: 0;
+  margin-top: 0px;
+}
+
+.one .rings {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .one:hover .rings {
+        display: inline;
+    }
+
+    .five .paper {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .five:hover .paper {
+        display: inline;
+    }
+
+ .first .ent {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .first:hover .ent {
+        display: inline;
+    }   
+
+    .two .topiary {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .two:hover .topiary {
+        display: inline;
+    }
+
+  
+.three .trunk {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .three:hover .trunk {
+        display: inline;
+    }
+
+.four .espalier {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .four:hover .espalier {
+        display: inline;
+    }
+
+.seven .leaves {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .seven:hover .leaves {
+        display: inline;
+    }
+
+.eight .face {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .eight:hover .face {
+        display: inline;
+    }
+
+    .nine .zones {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .nine:hover .zones {
+        display: inline;
+    }
+
+.ten .cell {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .ten:hover .cell {
+        display: inline;
+    }
+
+
